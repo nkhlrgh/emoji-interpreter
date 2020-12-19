@@ -19,7 +19,8 @@ var emojiDictionary = {
   "👐": "Open Hands",
   "🤲": "Palms Up",
   "🤝": "Handshake",
-  "🙏": "Folded Hands"
+  "🙏": "Folded Hands",
+  "👍": "Thumbs Up"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
