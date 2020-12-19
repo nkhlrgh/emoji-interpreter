@@ -30,6 +30,9 @@ export default function App() {
   function onchangehandler(event) {
     var userInput = event.target.value;
     var meaning = emojiDictionary[userInput];
+    if (meaning === undefined) {
+      meaning = "We do not this in our dictionary";
+    }
     setmeaning(meaning);
   }
 
